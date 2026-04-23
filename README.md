@@ -21,8 +21,6 @@ This Android app is built with Kotlin, Jetpack Compose, Room, Navigation Compose
 - Dark mode toggle
 - Snackbar feedback
 - Empty state UI
-- 10 unit tests
-- 10 instrumentation tests
 
 ## Important
 The manifest uses `Theme.FavoritePlaces` based on `Theme.AppCompat.DayNight.NoActionBar`.
