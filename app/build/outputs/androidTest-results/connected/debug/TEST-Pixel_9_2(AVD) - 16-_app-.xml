@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.favoriteplaces.AppUiTest" tests="10" failures="0" errors="0" skipped="0" time="20.547" timestamp="2026-04-23T04:34:16" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9_2(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="splashScreen_showsGetStartedButton" classname="com.example.favoriteplaces.AppUiTest" time="3.349" />
+  <testcase name="splashScreen_showsWelcomeText" classname="com.example.favoriteplaces.AppUiTest" time="2.172" />
+  <testcase name="detailsScreen_showsMapsButton" classname="com.example.favoriteplaces.AppUiTest" time="2.025" />
+  <testcase name="detailsScreen_showsDeleteButton" classname="com.example.favoriteplaces.AppUiTest" time="1.842" />
+  <testcase name="splashScreen_buttonCanBeClicked" classname="com.example.favoriteplaces.AppUiTest" time="2.066" />
+  <testcase name="detailsScreen_showsDescription" classname="com.example.favoriteplaces.AppUiTest" time="1.704" />
+  <testcase name="detailsScreen_showsAddress" classname="com.example.favoriteplaces.AppUiTest" time="1.477" />
+  <testcase name="detailsScreen_showsPlaceName" classname="com.example.favoriteplaces.AppUiTest" time="1.566" />
+  <testcase name="detailsScreen_showsEditButton" classname="com.example.favoriteplaces.AppUiTest" time="1.528" />
+  <testcase name="detailsScreen_showsBackButton" classname="com.example.favoriteplaces.AppUiTest" time="1.665" />
+</testsuite>

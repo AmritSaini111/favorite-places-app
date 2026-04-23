@@ -1,0 +1,38 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.example.favoriteplaces"
+    test_package: "com.example.favoriteplaces.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.example.favoriteplaces/additional_test_output"
+    }
+    args_map {
+      key: "class"
+      value: "com.example.favoriteplaces.AppUiTest"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [C:\My Favorite Places\My Favorite Places\app\build\intermediates\apk\debug\app-debug.apk] on device emulator-5554.
+INFO: Installing [C:\My Favorite Places\My Favorite Places\app\build\intermediates\apk\androidTest\debug\app-debug-androidTest.apk] on device emulator-5554.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.example.favoriteplaces for device emulator-5554.
+INFO: Uninstalling com.example.favoriteplaces.test for device emulator-5554.
+INFO: Execute com.example.favoriteplaces.AppUiTest.splashScreen_showsGetStartedButton: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.splashScreen_showsWelcomeText: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.detailsScreen_showsMapsButton: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.detailsScreen_showsDeleteButton: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.splashScreen_buttonCanBeClicked: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.detailsScreen_showsDescription: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.detailsScreen_showsAddress: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.detailsScreen_showsPlaceName: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.detailsScreen_showsEditButton: PASSED
+INFO: Execute com.example.favoriteplaces.AppUiTest.detailsScreen_showsBackButton: PASSED

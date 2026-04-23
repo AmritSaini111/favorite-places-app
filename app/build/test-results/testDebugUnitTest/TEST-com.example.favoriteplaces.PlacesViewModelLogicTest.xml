@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.favoriteplaces.PlacesViewModelLogicTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-04-23T04:32:55.011Z" hostname="SHUBH-8264" time="0.057">
+  <properties/>
+  <testcase name="ratingSortWithFavorites_filtersThenSorts" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.044"/>
+  <testcase name="filterFavorites_returnsOnlyFavorites" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.001"/>
+  <testcase name="sortByName_returnsAlphabetical" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.002"/>
+  <testcase name="searchByName_returnsMatchingPlace" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.0"/>
+  <testcase name="sortByRating_returnsHighestFirst" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.001"/>
+  <testcase name="searchWithNoMatch_returnsEmptyList" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.001"/>
+  <testcase name="sortByDate_returnsNewestFirst" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.0"/>
+  <testcase name="emptySearch_returnsAllPlaces" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.0"/>
+  <testcase name="favoritesAndSearch_canWorkTogether" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.001"/>
+  <testcase name="searchByAddress_returnsMatchingPlace" classname="com.example.favoriteplaces.PlacesViewModelLogicTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

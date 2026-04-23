@@ -1,0 +1,209 @@
+04-22 22:33:55.510  7041  7059 I TestRunner: started: splashScreen_showsGetStartedButton(com.example.favoriteplaces.AppUiTest)
+04-22 22:33:55.567  7041  7059 W FileTestStorage: Output properties is not supported.
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: enableTracing failed. You may need to upgrade your androidx.tracing:tracing version
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: java.lang.NoSuchMethodError: No static method forceEnableAppTracing()V in class Landroidx/tracing/Trace; or its super classes (declaration of 'androidx.tracing.Trace' appears in /data/app/~~xsROQEgsuxEeACAzKgReBQ==/com.example.favoriteplaces-_9M1IipBhfubfQKkdds2zQ==/base.apk!classes11.dex)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.platform.tracing.AndroidXTracer.enableTracing(AndroidXTracer.java:57)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<init>(Tracing.java:53)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<clinit>(Tracing.java:49)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule.providesTracing(BaseLayerModule.java:1)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.providesTracing(BaseLayerModule_ProvidesTracingFactory.java:1)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:1)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:2)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:1)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:2)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:6)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.DaggerBaseLayerComponent$BaseLayerComponentImpl.idlingResourceRegistry(DaggerBaseLayerComponent.java:1)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.espresso.Espresso.<clinit>(Espresso.java:3)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.EspressoLink_androidKt.runEspressoOnIdle(EspressoLink.android.kt:92)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.EspressoLink.runUntilIdle(EspressoLink.android.kt:79)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:320)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:463)
+04-22 22:33:55.572  7041  7059 E AndroidXTracer: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2597)
+04-22 22:33:55.572  7041  7059 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+04-22 22:33:55.581  7041  7041 D EventInjectionStrategy: Creating injection strategy with input manager.
+04-22 22:33:55.583  7041  7041 I .favoriteplaces: hiddenapi: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+04-22 22:33:55.587  7041  7041 I .favoriteplaces: hiddenapi: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+04-22 22:33:55.587  7041  7041 I .favoriteplaces: hiddenapi: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+04-22 22:33:55.592  7041  7041 I .favoriteplaces: hiddenapi: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+04-22 22:33:55.592  7041  7041 I .favoriteplaces: hiddenapi: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+04-22 22:33:55.592  7041  7041 I .favoriteplaces: hiddenapi: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+04-22 22:33:55.593  7041  7059 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@776c824]
+04-22 22:33:55.620  7041  7059 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-22 22:33:55.637  7041  7059 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+04-22 22:33:55.682   737  1868 I system_server: AssetManager2(0x7045e5eb8d38) locale list changing from [] to [en-US]
+04-22 22:33:55.689   737  1868 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@246112fa does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-22 22:33:55.791  1016  1195 I ndroid.systemui: AssetManager2(0x7045e5e70f38) locale list changing from [] to [en-US]
+04-22 22:33:55.816  1145  1145 W SplitSelectStateCtor: Missing session instanceIds
+04-22 22:33:55.817  1145  1145 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-22 22:33:55.824   555   555 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-22 22:33:55.872   555   574 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-22 22:33:55.933  7041  7041 I .favoriteplaces: AssetManager2(0x7045e5e1c938) locale list changing from [] to [en-US]
+04-22 22:33:55.989  7041  7041 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@a9ffd43 in: PRE_ON_CREATE
+04-22 22:33:55.990  7041  7041 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-22 22:33:56.070  7041  7041 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+04-22 22:33:56.119  7041  7041 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@a9ffd43 in: CREATED
+04-22 22:33:56.119  7041  7041 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@a9ffd43
+04-22 22:33:56.122  7041  7041 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@a9ffd43 in: STARTED
+04-22 22:33:56.122  7041  7041 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@a9ffd43
+04-22 22:33:56.143  7041  7041 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@a9ffd43 in: RESUMED
+04-22 22:33:56.144  7041  7041 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@a9ffd43
+04-22 22:33:56.197  7041  7041 W HWUI    : Unknown dataspace 0
+04-22 22:33:56.222  7041  7066 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-22 22:33:56.224  7041  7066 I EGL_emulation: Opening libGLESv2_emulation.so
+04-22 22:33:56.251  7041  7066 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-22 22:33:56.252  7041  7066 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-22 22:33:56.607  1145  1145 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-22 22:33:56.612  1145  1145 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+04-22 22:33:56.632   737   768 I ActivityTaskManager: Displayed com.example.favoriteplaces/androidx.activity.ComponentActivity for user 0: +975ms
+04-22 22:33:56.645  1145  1145 D BaseDepthController: setSurface:
+04-22 22:33:56.645  1145  1145 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-22 22:33:56.645  1145  1145 D BaseDepthController: 	mBaseSurface: null
+04-22 22:33:56.645  1145  1145 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+04-22 22:33:56.658  1145  1145 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+04-22 22:33:56.658  1145  1145 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 72a59688580715d19f0e415c69e80376c2f062d1648c80db6730905005a27c20:4)
+04-22 22:33:56.658  1145  1145 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 72a59688580715d19f0e415c69e80376c2f062d1648c80db6730905005a27c20:1)
+04-22 22:33:56.658  1145  1145 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 72a59688580715d19f0e415c69e80376c2f062d1648c80db6730905005a27c20:34)
+04-22 22:33:56.659  1145  1145 D StatsLog: LAUNCHER_ONSTOP
+04-22 22:33:56.671   737   869 I ImeTracker: com.example.favoriteplaces:d35106fa: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-22 22:33:56.671  1145  1145 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+04-22 22:33:56.675  7041  7041 D InsetsController: hide(ime(), fromIme=false)
+04-22 22:33:56.675  7041  7041 I ImeTracker: com.example.favoriteplaces:d35106fa: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-22 22:33:56.718   737  1923 I ImeTracker: system_server:e3330862: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+04-22 22:33:56.722   737   771 I ImeTracker: system_server:e3330862: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-22 22:33:56.759  1441  1441 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043
+04-22 22:33:56.765  2900  3107 I FontLog : (REDACTED) Received query %s, URI %s
+04-22 22:33:56.787  2900  3107 I FontLog : (REDACTED) Query [%s] resolved to %s
+04-22 22:33:56.806  1441  1441 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+04-22 22:33:56.822  1441  1441 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.favoriteplaces, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at asx.p(PG:6)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at axb.b(PG:13)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at jnr.b(PG:2)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at jnr.c(PG:4)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at jnr.f(PG:3)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at jnx.c(PG:3)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at kif.cz(PG:47)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at lhl.run(PG:1025)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at jaf.execute(PG:12)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at nco.v(PG:13)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at lhn.m(PG:96)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at lhn.k(PG:25)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+04-22 22:33:56.849  1441  1441 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+04-22 22:33:56.851  1441  1441 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+04-22 22:33:56.896  2900  3107 I FontLog : (REDACTED) Fetch %s end status %s
+04-22 22:33:56.912  7041  7045 I .favoriteplaces: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+04-22 22:33:56.936  2900  3107 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+04-22 22:33:56.937  1016  1195 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@e35661b
+04-22 22:33:56.967  2900  3107 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+04-22 22:33:57.437  7041  7041 W .favoriteplaces: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-22 22:33:57.437  7041  7041 W .favoriteplaces: Common causes for lock verification issues are non-optimized dex code
+04-22 22:33:57.437  7041  7041 W .favoriteplaces: and incorrect proguard optimizations.
+04-22 22:33:57.437  7041  7041 W .favoriteplaces: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+04-22 22:33:57.437  7041  7041 W .favoriteplaces: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-22 22:33:57.438  7041  7041 W .favoriteplaces: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-22 22:33:57.438  7041  7041 W .favoriteplaces: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+04-22 22:33:57.819   737  1868 I system_server: AssetManager2(0x7045e5eb8a18) locale list changing from [] to [en-US]
+04-22 22:33:57.821   737  1868 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@2615eb99 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-22 22:33:57.834   555  1239 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-22 22:33:57.848  1016  1195 I ndroid.systemui: AssetManager2(0x7045e5e50558) locale list changing from [] to [en-US]
+04-22 22:33:57.865   737   771 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@2615eb99 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-22 22:33:57.873  7041  7041 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@a9ffd43 in: PAUSED
+04-22 22:33:57.875   555   555 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-22 22:33:57.887  7041  7041 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@a9ffd43
+04-22 22:33:57.887   484   484 D Zygote  : Forked child process 7076
+04-22 22:33:57.919  7076  7076 I riteplaces.test: Late-enabling -Xcheck:jni
+04-22 22:33:57.986  7076  7076 I riteplaces.test: Using CollectorTypeCMC GC.
+04-22 22:33:57.989  7076  7076 W riteplaces.test: Unexpected CPU variant for x86: x86_64.
+04-22 22:33:57.989  7076  7076 W riteplaces.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+04-22 22:33:58.003   565   585 I adbd    : jdwp connection from 7076
+04-22 22:33:58.014  1016  1097 I ndroid.systemui: AssetManager2(0x7045e5e66038) locale list changing from [] to [en-US]
+04-22 22:33:58.025  1016  1097 I ndroid.systemui: AssetManager2(0x7045e5e71578) locale list changing from [] to [en-US]
+04-22 22:33:58.044   508   550 I RanchuHwc: logCompositionFallbackIfChanged: layer 161 CompositionType fallback from 3 to 1
+04-22 22:33:58.085  7076  7076 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+04-22 22:33:58.203  7076  7076 D CompatChangeReporter: Compat change id reported: 242716250; UID 10222; state: ENABLED
+04-22 22:33:58.275  7076  7076 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-22 22:33:58.287  7076  7076 D nativeloader: Configuring clns-9 for other apk /system/framework/android.test.mock.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~CKcq6GiPJPxTXzbMqWGykg==/com.example.favoriteplaces.test-mqMalCsuwB6mnF4Myy5FBw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.favoriteplaces.test
+04-22 22:33:58.297  7076  7076 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-22 22:33:58.300  7076  7076 D nativeloader: Configuring clns-10 for other apk /system/framework/android.test.runner.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~CKcq6GiPJPxTXzbMqWGykg==/com.example.favoriteplaces.test-mqMalCsuwB6mnF4Myy5FBw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.favoriteplaces.test
+04-22 22:33:58.373  7076  7076 D nativeloader: Configuring clns-11 for other apk /data/app/~~CKcq6GiPJPxTXzbMqWGykg==/com.example.favoriteplaces.test-mqMalCsuwB6mnF4Myy5FBw==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~CKcq6GiPJPxTXzbMqWGykg==/com.example.favoriteplaces.test-mqMalCsuwB6mnF4Myy5FBw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.favoriteplaces.test
+04-22 22:33:58.391  7076  7076 I riteplaces.test: AssetManager2(0x7045e5e1e238) locale list changing from [] to [en-US]
+04-22 22:33:58.420  7076  7076 V GraphicsEnvironment: Currently set values for:
+04-22 22:33:58.421  7076  7076 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-22 22:33:58.421  7076  7076 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-22 22:33:58.421  7076  7076 V GraphicsEnvironment: com.example.favoriteplaces.test is not listed in per-application setting
+04-22 22:33:58.422  7076  7076 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+04-22 22:33:58.424  7076  7076 V GraphicsEnvironment: com.example.favoriteplaces.test is not listed in ANGLE allowlist or settings, returning default
+04-22 22:33:58.425  7076  7076 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+04-22 22:33:58.516  7076  7076 I riteplaces.test: AssetManager2(0x7045e5e20ad8) locale list changing from [] to [en-US]
+04-22 22:33:58.568  7041  7041 D VRI[ComponentActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-22 22:33:58.570  7076  7076 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+04-22 22:33:58.639  7076  7076 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+04-22 22:33:58.659  7076  7091 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-22 22:33:58.661  7076  7091 I EGL_emulation: Opening libGLESv2_emulation.so
+04-22 22:33:58.702  7076  7091 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-22 22:33:58.703  7076  7091 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-22 22:33:58.738  7076  7076 W HWUI    : Unknown dataspace 0
+04-22 22:33:58.757  7041  7041 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@a9ffd43 in: STOPPED
+04-22 22:33:58.758  7041  7041 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@a9ffd43
+04-22 22:33:58.768  7041  7041 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@a9ffd43 in: DESTROYED
+04-22 22:33:58.770  7041  7041 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-22 22:33:58.773  7041  7041 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@846ee4e
+04-22 22:33:58.782  7041  7041 D ViewRootImpl: Skipping stats log for color mode
+04-22 22:33:58.787   737  1923 I ImeTracker: system_server:ee596436: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+04-22 22:33:58.790   737   771 I ImeTracker: system_server:ee596436: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-22 22:33:58.818   555  1239 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-22 22:33:58.823  7041  7059 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@776c824]
+04-22 22:33:58.825   555   555 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-22 22:33:58.832  1145  1145 D RecentsView: onTaskRemoved: 58, not handling task stack changes
+04-22 22:33:58.835   555   802 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10222 pid=0
+04-22 22:33:58.836   555   802 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10222 => denied (2062 us)
+04-22 22:33:58.836   555  1239 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10222 pid=7076
+04-22 22:33:58.836   555  1239 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10222 => denied (156 us)
+04-22 22:33:58.836   555   802 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10222 pid=0
+04-22 22:33:58.836   555   802 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10222 => denied (150 us)
+04-22 22:33:58.836   555   802 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10222 pid=0
+04-22 22:33:58.836   555   802 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10222 => denied (625 us)
+04-22 22:33:58.836   555  1239 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10222 pid=7076
+04-22 22:33:58.836   555  1239 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10222 => denied (780 us)
+04-22 22:33:58.837  1145  1145 D RecentsView: onTaskRemoved: 58, not handling task stack changes
+04-22 22:33:58.842  7041  7059 I TestRunner: finished: splashScreen_showsGetStartedButton(com.example.favoriteplaces.AppUiTest)

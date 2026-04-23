@@ -40,21 +40,12 @@ class PlacesViewModel(
             filter: FilterOption,
             darkMode: Boolean ->
 
-            val searchedPlaces = places.filter { place ->
-                place.name.contains(query, ignoreCase = true) ||
-                        place.address.contains(query, ignoreCase = true)
-            }
-
-            val filteredPlaces = when (filter) {
-                FilterOption.ALL -> searchedPlaces
-                FilterOption.FAVORITES -> searchedPlaces.filter { it.isFavorite }
-            }
-
-            val sortedPlaces = when (sort) {
-                SortOption.NEWEST -> filteredPlaces.sortedByDescending { it.createdAt }
-                SortOption.NAME -> filteredPlaces.sortedBy { it.name.lowercase() }
-                SortOption.RATING -> filteredPlaces.sortedByDescending { it.rating }
-            }
+            val sortedPlaces = applyFilters(
+                places = places,
+                query = query,
+                sort = sort,
+                filter = filter
+            )
 
             PlacesUiState(
                 places = sortedPlaces,
@@ -119,6 +110,31 @@ class PlacesViewModel(
         viewModelScope.launch {
             repository.deletePlace(place)
             onComplete()
+        }
+    }
+
+    companion object {
+        fun applyFilters(
+            places: List<Place>,
+            query: String,
+            sort: SortOption,
+            filter: FilterOption
+        ): List<Place> {
+            val searchedPlaces = places.filter { place ->
+                place.name.contains(query, ignoreCase = true) ||
+                        place.address.contains(query, ignoreCase = true)
+            }
+
+            val filteredPlaces = when (filter) {
+                FilterOption.ALL -> searchedPlaces
+                FilterOption.FAVORITES -> searchedPlaces.filter { it.isFavorite }
+            }
+
+            return when (sort) {
+                SortOption.NEWEST -> filteredPlaces.sortedByDescending { it.createdAt }
+                SortOption.NAME -> filteredPlaces.sortedBy { it.name.lowercase() }
+                SortOption.RATING -> filteredPlaces.sortedByDescending { it.rating }
+            }
         }
     }
 }

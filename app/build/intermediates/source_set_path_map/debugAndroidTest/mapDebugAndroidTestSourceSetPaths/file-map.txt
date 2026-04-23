@@ -1,0 +1,35 @@
+com.example.favoriteplaces.test.app-androidTest-0 C:\My Favorite Places\My Favorite Places\app\build\generated\res\resValues\androidTest\debug
+com.example.favoriteplaces.test.app-mergeDebugAndroidTestResources-1 C:\My Favorite Places\My Favorite Places\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.favoriteplaces.test.app-mergeDebugAndroidTestResources-2 C:\My Favorite Places\My Favorite Places\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.favoriteplaces.test.app-debugAndroidTest-3 C:\My Favorite Places\My Favorite Places\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.favoriteplaces.test.app-lifecycle-runtime-ktx-release-4 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\08d42b7fbd4dd8779e05baca99d15d84\transformed\lifecycle-runtime-ktx-release\res
+com.example.favoriteplaces.test.app-core-ktx-1.13.1-5 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\0a24460edb917fb63003a2f183edec4c\transformed\core-ktx-1.13.1\res
+com.example.favoriteplaces.test.app-lifecycle-viewmodel-ktx-2.8.4-6 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\25048c6b5a578f768b35cf354d5f6105\transformed\lifecycle-viewmodel-ktx-2.8.4\res
+com.example.favoriteplaces.test.app-activity-ktx-1.9.1-7 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\2d6ded8e79c3c516a2362d196950b341\transformed\activity-ktx-1.9.1\res
+com.example.favoriteplaces.test.app-startup-runtime-1.1.1-8 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\2da4ac8b52cf033c90366ad64d91cc67\transformed\startup-runtime-1.1.1\res
+com.example.favoriteplaces.test.app-annotation-experimental-1.4.0-9 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\2e8a05a4dcfda0190d1230bfb67977d6\transformed\annotation-experimental-1.4.0\res
+com.example.favoriteplaces.test.app-lifecycle-runtime-release-10 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\3763012d0fd1dd5cf6e6c7cd83d20ebf\transformed\lifecycle-runtime-release\res
+com.example.favoriteplaces.test.app-runtime-saveable-release-11 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\495bcc5a01bc91d0d50b09290804f478\transformed\runtime-saveable-release\res
+com.example.favoriteplaces.test.app-lifecycle-viewmodel-release-12 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\49997102042e255ec0ded0b19681c05c\transformed\lifecycle-viewmodel-release\res
+com.example.favoriteplaces.test.app-ui-geometry-release-13 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\60ac150223a95a17897a848e22b868cd\transformed\ui-geometry-release\res
+com.example.favoriteplaces.test.app-activity-1.9.1-14 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\613d3369a813b27279f907f34cb2ad75\transformed\activity-1.9.1\res
+com.example.favoriteplaces.test.app-ui-release-15 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\649127eeff8cad15ca1bac178cf20608\transformed\ui-release\res
+com.example.favoriteplaces.test.app-ui-util-release-16 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\67e9f84e5aaecdfb15925fe4fe1e8de2\transformed\ui-util-release\res
+com.example.favoriteplaces.test.app-savedstate-1.2.1-17 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\7768ee55036e20ab0f7d831875c8d360\transformed\savedstate-1.2.1\res
+com.example.favoriteplaces.test.app-core-1.6.1-18 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\7eafa55f98c9168e0da2328747cc20d6\transformed\core-1.6.1\res
+com.example.favoriteplaces.test.app-savedstate-ktx-1.2.1-19 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\7f9ba2bebe9e70aebba62e9ba6f5ed08\transformed\savedstate-ktx-1.2.1\res
+com.example.favoriteplaces.test.app-lifecycle-process-2.8.4-20 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\9576295d9b9c6ae27934ab833b9be744\transformed\lifecycle-process-2.8.4\res
+com.example.favoriteplaces.test.app-runtime-release-21 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\95c917a767691c8c7252992c69b7a634\transformed\runtime-release\res
+com.example.favoriteplaces.test.app-core-1.13.1-22 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\97e558264b80c1b78470d7528b0fdfd8\transformed\core-1.13.1\res
+com.example.favoriteplaces.test.app-ui-test-release-23 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\9af2c590ddeb4eea9f1c64db10691661\transformed\ui-test-release\res
+com.example.favoriteplaces.test.app-lifecycle-viewmodel-savedstate-2.8.4-24 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\9e9057f4abe89950b1af696c1632dc19\transformed\lifecycle-viewmodel-savedstate-2.8.4\res
+com.example.favoriteplaces.test.app-lifecycle-livedata-core-2.8.4-25 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\a0df6c192e1b6b5fb4afff49d7e1edb1\transformed\lifecycle-livedata-core-2.8.4\res
+com.example.favoriteplaces.test.app-ui-text-release-26 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\a17190a859f43d986035d499b59cdc74\transformed\ui-text-release\res
+com.example.favoriteplaces.test.app-ui-unit-release-27 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\a534b7799753ffe757fd844bf6e08749\transformed\ui-unit-release\res
+com.example.favoriteplaces.test.app-ui-graphics-release-28 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\b5bd2c529708e15f86a7a357c1d3749d\transformed\ui-graphics-release\res
+com.example.favoriteplaces.test.app-core-runtime-2.2.0-29 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\b66c69368a300087b1538ef2f8cb5564\transformed\core-runtime-2.2.0\res
+com.example.favoriteplaces.test.app-customview-poolingcontainer-1.0.0-30 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\ca980bc65c971b459a79da4cd597c1cf\transformed\customview-poolingcontainer-1.0.0\res
+com.example.favoriteplaces.test.app-profileinstaller-1.3.1-31 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\cb705ea2203ab2f059029dc6b8e51b1c\transformed\profileinstaller-1.3.1\res
+com.example.favoriteplaces.test.app-ui-test-junit4-release-32 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\dd44a5216ab58c1ec1d0a11a603a6e14\transformed\ui-test-junit4-release\res
+com.example.favoriteplaces.test.app-activity-compose-1.9.1-33 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\e58bac5ca1f33cf6672918645e1aa422\transformed\activity-compose-1.9.1\res
+com.example.favoriteplaces.test.app-emoji2-1.3.0-34 C:\Users\shubh\.gradle\caches\9.0-milestone-1\transforms\e6ba13a1511d2435e8ebc9677bf8285c\transformed\emoji2-1.3.0\res
